@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>DOM Atomic 04</title>
+  <script type="text/javascript" src="global.js"></script>
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(209, 28, 28);
+  margin-top: 150px;
+}
+</style>
+</head>
+<body>
+
+  <div class="toggle_me" style="display: none">
+    I have the class "toggle_me"; I should appear/disappear when you click the button at the bottom.
+  </div>
+
+  <div class="toggle_me" style="display: none">
+    I'm also part of the "toggle_me" class, and should also appear/disappear.
+  </div>
+
+  <div>
+    I'm a boring element that doesn't ever get revealed/disappeared.
+  </div>
+
+  <button onclick="myFunction()">Toggle</button>
+
+<div id="myDIV">
+I'm a boring element that doesn't ever get revealed/disappeared.
+</div>
+</body>
+</html>
